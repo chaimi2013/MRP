@@ -6,7 +6,7 @@ The code has been tested on Win7/10 with Opencv 2.7.
 ## Installation
 Please install opencv 2.4.9 (or copy "opencv_core249.dll" "opencv_highgui249.dll " "opencv_imgproc249.dll" from "OPENCV_DIR/build/x64/vc10/bin/" to the same directory with "NighttimeDehaze.exe") before running this code.
 
-Then, run the executable code as: "NighttimeDehazeMRP.exe input.bmp 0", where "input.bmp" is the input nighttime hazy image, the follwowing parameter indicates the algorithm being used, e.g., 0 for MRP and 1 for MRP-Faster, the output dehazed result is named as "name_J.bmp".
+Then, run the executable code as: "NighttimeDehazeMRP.exe name.bmp 0", where "name.bmp" is the input nighttime hazy image, the follwowing parameter indicates the algorithm being used, e.g., 0 for MRP and 1 for MRP-Faster, the output dehazed result is named as "name_J.bmp".
 
 ## Folder Structure
     MRP
